@@ -1,0 +1,1 @@
+mensaje_oficial = "Bienvenidos a este curso de Programación, vais a suspender todos."

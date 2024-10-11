@@ -59,7 +59,14 @@ print(por_orden)
 con_parentesis = -((-(5*3)+(11//5)) % 5)  # OJO con la división de números negativos
 print(con_parentesis)
 
-
+# Puedo usar el valor de una variable para asignarle a la propia variable otro valor
+numero = 10
+numero = numero * 2
+# Pues hay operadores que simplifican eso
+numero *= 2   # esta línea y la anterior de código hacen lo mismo
+numero += 3
+numero //= 10
+numero %= 7
 
 
 
