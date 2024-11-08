@@ -1,4 +1,4 @@
-from funciones_secuenciales import fibonacci
+from ejemplos.funcion_fibonacci import fibonacci
 
 fibonacci(30)
 
