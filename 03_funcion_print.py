@@ -33,10 +33,17 @@ print(nombre)
 print("Buenos días.\nEsto está en otra línea.")
 # Los caracteres especiales siempre empiezan por \ como
 # \n que lo que hace es escribir un salto de línea
-# otros caracteres especiales son
-#   \t (tabulador)
-#   \\ (escribe una barra)
-#   \" o \' que escribe una comilla
+
+# Existen varios caracteres especiales aparte de \n -->
+#       \n: Nueva línea (salto de línea).
+#       \r: Retorno de carro.
+#       \b: Retroceso (borra el carácter anterior).
+#       \f: Salto de página.
+#       \': Comilla simple.
+#       \": Comilla doble.
+#       \\: Barra invertida (backslash).
+#       \a: Sonido de campana (bell).
+#       \v: Tabulación vertical.
 print("Datos:\n\t- dato 1 tabulado\n\t- \"dato 2 entre comillas\"")
 
 # Por suerte podemos componer 'frases' de texto combinando lo visto
