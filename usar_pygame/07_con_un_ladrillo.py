@@ -41,15 +41,9 @@ barra_velocidad = 10
 
 ladrillos = []
 
-ladrillos.append([300,200,50,10,True])
-ladrillos.append([355,200,50,10,True])
-ladrillos.append([410,200,50,10,True])
-ladrillos.append([465,200,50,10,True])
-ladrillos.append([245,200,50,10,True])
-ladrillos.append([190,200,50,10,True])
-ladrillos.append([135,200,50,10,True])
-ladrillos.append([80,200,50,10,True])
-ladrillos.append([25,200,50,10,True])
+for i in range(10):
+    for j in range(5):
+        ladrillos.append([55*i +125,100 + j*20,50,10,True])
 
 # Bucle principal
 corriendo = True
